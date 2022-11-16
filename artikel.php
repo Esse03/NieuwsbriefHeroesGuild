@@ -10,15 +10,14 @@
     <title>Info</title>
 </head>
 <body>
-    <nav>
+<nav>
 
-    </nav>
-    <main>
+</nav>
+<main>
 
-    </main>
-    <footer>
+</main>
+<footer>
 
-    </footer>
+</footer>
 </body>
 </html>
-

@@ -10,15 +10,16 @@
     <title>Info</title>
 </head>
 <body>
-    <nav>
+<nav>
+    <a href="">Heroes guild</a>
+    <a href="">Nieuwsbrief</a>
 
-    </nav>
-    <main>
+</nav>
+<main>
 
-    </main>
-    <footer>
+</main>
+<footer>
 
-    </footer>
+</footer>
 </body>
 </html>
-
