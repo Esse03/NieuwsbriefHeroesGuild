@@ -31,12 +31,11 @@
         Home
     </a>
 </nav>
-    <main>
+<main>
 
-    </main>
-    <footer>
+</main>
+<footer>
 
-    </footer>
+</footer>
 </body>
 </html>
-

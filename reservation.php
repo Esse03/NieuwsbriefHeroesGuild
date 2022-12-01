@@ -1,4 +1,15 @@
-<?php
+<?php   /** @var $db */
+
+require_once "includes/dbLink.php";
+
+$userId = $_GET["id"];
+
+$query = "SELECT * FROM reservations WHERE id = " . $userId;
+$result = mysqli_query($db, $query);
+
+$user = mysqli_fetch_assoc($result);
+
+mysqli_close($db);
 
 ?>
 
@@ -15,28 +26,19 @@
 <body>
 <nav>
 
-    <a href="https://ftviy67y.paperform.co/">
-        Heroes guild
+    <a href="./overvieuw.php">
+        Overzicht
     </a>
-
-    <div>
-        <span>Nieuwsbrief</span>
-        <div class="Drop">
-            <a href="./nieuwsbrief.php">Aanmelden</a>
-            <a href="./artikel.php">Artikel reserveren</a>
-        </div>
-    </div>
     <div id="blank"></div>
     <a href="./index.php">
         Home
     </a>
 </nav>
-    <main>
+<main>
 
-    </main>
-    <footer>
+</main>
+<footer>
 
-    </footer>
+</footer>
 </body>
 </html>
-

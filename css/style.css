@@ -1,0 +1,80 @@
+body {
+    margin: 0px;
+    text-align: center;
+}
+
+nav {
+    margin: 0.5vw;
+    border: ridge;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    position: sticky;
+    top: 0px;
+}
+
+#blank {
+    flex: 3;
+}
+
+nav a {
+    flex: 1;
+    text-align: center;
+    color: darkred;
+    text-decoration: none;
+    padding: 1vw;
+    background: antiquewhite;
+}
+
+nav a:hover {
+    background: ivory;
+    color: crimson;
+}
+
+nav div {
+    flex: 1;
+    text-align: center;
+    color: darkred;
+    text-decoration: none;
+    padding: 1vw;
+    background: antiquewhite;
+}
+
+nav .Drop {
+    display: none;
+    position: absolute;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+nav div:hover .Drop {
+    display: flex;
+    flex-direction: column;
+}
+
+table {
+    display: flex;
+    flex-direction:column ;
+    justify-content: space-evenly;
+}
+
+tr {
+    display: flex;
+    flex-direction: row;
+    text-align: left;
+    margin: 10px;
+    justify-content: space-evenly;
+}
+
+tr th {
+    padding: 20px;
+    flex: 1;
+    margin: 10px;
+    background: crimson;
+}
+
+tr td {
+    padding: 20px;
+    flex: 1;
+    background: crimson;
+}
+
